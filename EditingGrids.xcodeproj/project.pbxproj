@@ -11,6 +11,10 @@
 		BAA8A3332A77EC18002E844C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA8A3322A77EC18002E844C /* ContentView.swift */; };
 		BAA8A3352A77EC19002E844C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA8A3342A77EC19002E844C /* Assets.xcassets */; };
 		BAA8A3382A77EC19002E844C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA8A3372A77EC19002E844C /* Preview Assets.xcassets */; };
+		BAA8A33F2A77ED02002E844C /* SymbolGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA8A33E2A77ED02002E844C /* SymbolGrid.swift */; };
+		BAA8A3412A77EDCC002E844C /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA8A3402A77EDCC002E844C /* Symbol.swift */; };
+		BAA8A3432A77EE3A002E844C /* SymbolDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA8A3422A77EE3A002E844C /* SymbolDetail.swift */; };
+		BAA8A3452A77EFD3002E844C /* SymbolPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA8A3442A77EFD3002E844C /* SymbolPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		BAA8A3322A77EC18002E844C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BAA8A3342A77EC19002E844C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAA8A3372A77EC19002E844C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BAA8A33E2A77ED02002E844C /* SymbolGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolGrid.swift; sourceTree = "<group>"; };
+		BAA8A3402A77EDCC002E844C /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
+		BAA8A3422A77EE3A002E844C /* SymbolDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolDetail.swift; sourceTree = "<group>"; };
+		BAA8A3442A77EFD3002E844C /* SymbolPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,7 @@
 		BAA8A3242A77EC18002E844C = {
 			isa = PBXGroup;
 			children = (
+				BAA8A3442A77EFD3002E844C /* SymbolPicker.swift */,
 				BAA8A32F2A77EC18002E844C /* EditingGrids */,
 				BAA8A32E2A77EC18002E844C /* Products */,
 			);
@@ -53,6 +62,9 @@
 			children = (
 				BAA8A3302A77EC18002E844C /* EditingGridsApp.swift */,
 				BAA8A3322A77EC18002E844C /* ContentView.swift */,
+				BAA8A3402A77EDCC002E844C /* Symbol.swift */,
+				BAA8A3422A77EE3A002E844C /* SymbolDetail.swift */,
+				BAA8A33E2A77ED02002E844C /* SymbolGrid.swift */,
 				BAA8A3342A77EC19002E844C /* Assets.xcassets */,
 				BAA8A3362A77EC19002E844C /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAA8A33F2A77ED02002E844C /* SymbolGrid.swift in Sources */,
+				BAA8A3412A77EDCC002E844C /* Symbol.swift in Sources */,
 				BAA8A3332A77EC18002E844C /* ContentView.swift in Sources */,
+				BAA8A3452A77EFD3002E844C /* SymbolPicker.swift in Sources */,
+				BAA8A3432A77EE3A002E844C /* SymbolDetail.swift in Sources */,
 				BAA8A3312A77EC18002E844C /* EditingGridsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

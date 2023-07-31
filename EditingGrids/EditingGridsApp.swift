@@ -11,7 +11,9 @@ import SwiftUI
 struct EditingGridsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                SymbolGrid()
+            }
         }
     }
 }
